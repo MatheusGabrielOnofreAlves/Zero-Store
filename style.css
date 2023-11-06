@@ -1,0 +1,493 @@
+body{
+    margin: 0%;
+    overflow-x: hidden;
+}
+.navbar{
+    position: fixed;
+    margin-top: -120;
+    margin-bottom: 1.5%;
+    color:black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 120px;
+    text-decoration: none;
+    border-radius: 5px;
+    flex-wrap: nowrap;
+    justify-content: start;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+
+
+
+.home{
+    color: black;
+}
+
+.homeDcrt, .home:active{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.home-btn{
+    width: 70px;
+    border-color: white;
+    background-color: white;
+    border-bottom: none;
+    border-style: none;
+    height: 50px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.home-btn:hover, .home-btn:focus  {
+  text-decoration: underline;
+}
+
+.fale-conosco{
+    width: 70px;
+    color: black;
+}
+
+.fale-conosco-Dcrt{
+    text-decoration: none;
+    color: black;
+}
+
+.fale-conosco-btn{
+    width: 120px;
+    border-color: white;
+    background-color: white;
+    border-bottom: none;
+    border-style: none;
+    height: 50px;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.fale-conosco-btn:hover, .fale-conosco-btn:focus{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+.lista-desejo{
+    width: 130px;
+    color: black;
+}
+
+.lista-desejo-Dcrt{
+    text-decoration: none;
+    color: black;
+}
+
+
+.lista-desejo-btn{
+    width: 130px;
+    border-color: white;
+    background-color: white;
+    border-bottom: none;
+    border-style: none;
+    height: 50px;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.lista-desejo-btn:hover, .lista-desejo-btn:focus{
+    text-decoration: underline;
+}
+
+
+.clothes-btn{
+    border-color: white;
+    background-color: white;
+    border-bottom: none;
+    border-style: none;
+    height: 50px;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.clothes-btn:hover, .clothes-btn:focus{
+    text-decoration: underline;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+    z-index: 1;
+}
+
+.dropdown-menu a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+    background-color: #ddd;
+}
+
+.search{
+    margin-left: 30px;
+}
+
+.zspace{
+    width: 7%;
+    color: black;
+    justify-content: end;
+    margin-left: 1.5rem;
+    height: 30px;
+}
+
+.zspace-btn{
+    width: 99px;
+    border-color: white;
+    background-color: white;
+    border-bottom: none;
+    border-style: none;
+    height: 30px;
+    cursor: pointer;
+    margin-top: -30px;
+}
+
+.zspace-btn:hover, .zspace-btn:focus{
+    text-decoration: underline;
+}
+
+.camiseta:hover, .camiseta:focus{
+    text-decoration: underline;
+}
+
+.colecao:hover, .colecao:focus{
+    text-decoration: underline;
+}
+
+.calca:hover, .calca:focus{
+    text-decoration: underline;
+}
+
+.moletons:hover, .moletons:focus{
+    text-decoration: underline;
+}
+
+.jaquetas:hover, .jaquetas:focus{
+    text-decoration: underline;
+}
+
+.acessorios:hover, .acessorios:focus{
+    text-decoration: underline;
+}
+
+
+
+.card-pai{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+    margin-left: 90px;
+    flex-wrap: wrap;
+}
+
+
+.card-clothes{
+    height: 23rem;
+    width: 23rem;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+
+
+.card-clothes:hover, .card-clothes:focus{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+
+.banner-pai{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+
+
+
+.banner-pai2{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.banner2{
+    height: 100%;
+    width: 85%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+
+
+.banner-filho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px 0px 0px 5px;
+    height: 100%;
+    width: 570.90px;
+    animation-duration: 1s;
+    animation-name: slide;
+}
+
+.banner-filho2{
+    background-color: white;
+    height: 100%;
+    width: 570.90px;
+}
+
+.banner-filho3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 0px 5px 5px 0px;
+    height: 100%;
+    width: 570.90px;
+    
+}
+
+.card-clothes2{
+    height: 50rem;
+    width: 50rem;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.card-tamanho{
+    position: fixed;
+    height: 50rem;
+    width: 50rem;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.card-pai-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.barra-roupa{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-top: 45px;
+}
+
+.barra-roupa-pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 25%;
+    width: 100%;
+    margin-bottom: 3.5%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.anuncio{
+    height: 50rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-top: 45px;
+}
+
+.anuncio2{
+    width: 20rem;
+    height: 50rem;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-top: 45px;
+}
+
+.carrosel{
+    margin-top: 9%;
+    display: flex;
+    height: 400px;
+    z-index: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.carousel{
+    width: 90%;
+    height: 40%;
+}
+
+.carousel-item{
+   margin-right: 0;
+   justify-content: center;
+   height: 800px;
+}
+
+.img-carousel{
+    width: 50%;
+    height: 50%;
+}
+
+
+.carousel-inner{
+    height: 800px;
+}
+
+.animacao{
+    overflow-y: hidden;
+}
+
+.show{
+   margin-left: 0px;
+   transition: all 0.3s;
+    
+}
+
+
+
+.hide{
+    margin-left: 3806px;
+    transition: all 0.3s;
+}
+
+.showFaleConosco{
+    margin-left: 0px;
+    transition: all 0.3s;
+     
+ }
+ 
+ 
+ .hideFaleConosco{
+     margin-left: 3806px;
+     transition: all 0.3s;
+ }
+
+
+
+
+.hideClothes{
+    margin-left: -3806px;
+    transition: all 0.4s;
+}
+
+.showClothes{
+    margin-left:  0px ;
+    transition: all 0.4s;
+}
+
+.hidePesquisa{
+    margin-top: -240px;
+    transition: all 0.4s;
+
+}
+
+.showPesquisa{
+    margin-bottom: 0px;
+    transition: all 0.5s;
+}
+
+.bag-count{
+    margin-top: -.875rem;
+    margin-left: 0.2rem;
+    background-color: black;
+    color: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: .5rem;
+}
+
+  
+  @keyframes slide {
+    from {
+      margin-left: 100%;
+    
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .titulosbotao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation-duration: 0.8s;
+    animation-name: slidebotao;
+    margin: 15px;
+    margin-top: 50px;
+  }
+
+  .comprar-pai{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    animation-duration: 0.8s;
+    animation-name: slidebotao;
+  }
+
+  .comprar{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+
+  }
+
+  @keyframes slidebotao {
+    from {
+      margin-left: 100%;
+      width: 150%;  
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

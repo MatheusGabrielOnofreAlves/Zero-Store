@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Zero Space</title>
+    <link rel="shortcut icon" type="imagex/png" href="img/logosite.svg">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='action.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="pesquisaPai hidePesquisa" id="containerPesquisa" style=" width: 100%; z-index: 2;  position: fixed; margin-bottom: 1.5%;color:black; background-color: white;  display: flex;flex-direction: row;  align-content: center; height: 120px; text-decoration: none; border-radius: 5px;  flex-wrap: wrap; justify-content: center; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);" >
+        <div class="pesquisaButton" style="display: flex; align-items: center; justify-content: center; margin-right: 3px;"><img src="img/search2.svg" alt="" style="width: 30px; color: lightgrey; cursor: pointer;"></div>
+        <div style="height: 45px; width: 1.5px; background-color: lightgrey;"></div>
+        <div class="pesquisaFilho1" style="width: 30%; height: 45px; display: flex; align-items: center; justify-content: center; margin-left: 3px; "><input type="text" placeholder="Pesquise em nosso site" style="width: 100%; height: 100%; border: 0; outline: 0;  " ></div>
+        <div class="cancelaPesquisa" style="display: flex; align-items: center; justify-content: center; margin-left: 3px;" > <img src="img/x-lg2.svg" alt="" style="width: 20px; color: lightgrey; cursor: pointer;" onclick="myFunction4()"></div>
+      </div>
+  
+  
+    
+  
+  
+    <div class="animacao hide" id="containerAnimacao" >
+      <div class="sombra " id="sombra"  onclick="myFunction2()" style="background-color: black; opacity: 0.8; position: fixed ; z-index: 2; width: 100%; height: 100vh; display: block; ">
+      </div>
+      <div class="loginanimacao  " style="display: flex; flex-direction: row; justify-content: end; transition: .7s;">
+        <div id="loginPai " style="width: 40%; height: 100vh; margin-top: 1.2px; display: block; position: fixed; float: right; background-color: white; z-index: 2; border-radius: 5px 0px 0px 5px;  box-shadow: 16px 8px 16px 0px rgba(0, 0, 0, 5);">
+        <div id="identificacao" style="display: flex; height: 30px; margin-top: 70px; width: 100%;">
+        <h2 style="display: flex; justify-content: center; margin-top: 6px ; margin-left: 70px; font-size: 15px; height: 15px;">identificação</h2>
+        <div style="margin-left: 65%;"><img src="img/x-lg.svg" alt="" style="cursor: pointer; margin-top: 8px;" onclick="myFunction2()"></div>
+        </div>
+          <div>
+  
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  
+    <div class="animacaoFaleConosco hideFaleConosco" id="containerFaleConosco" >
+      <div class="sombra2 " id="sombra2"  onclick="myFunction3()" style="background-color: black; opacity: 0.8; position: fixed ; display: block;   z-index: 2; width: 100%; height: 100vh ">
+      </div>
+      <div class="faleConoscoAnimacao  " style="display: flex; flex-direction: row; justify-content: end; transition: .7s;">
+        <div id="FaleConoscoPai " style="width: 40%; height: 100vh; margin-top: 1.2px; position: fixed; display: block; float: right; background-color: white; z-index: 2; border-radius: 5px 0px 0px 5px;  box-shadow: 16px 8px 16px 0px rgba(0, 0, 0, 5);">
+          <div id="identificacao" style="display: flex; height: 30px; margin-top: 70px; width: 100%;">
+          <h2 style="display: flex; justify-content: center; margin-top: 6px ; margin-left: 70px; font-size: 15px; height: 15px;">Fale Conosco</h2>
+          <div style="margin-left: 65%;"><img src="img/x-lg.svg" alt="" style="cursor: pointer; margin-top: 8px;" onclick="myFunction3()"></div>
+          </div>
+          <div style="margin-top: 50px; margin-left: 70px;">
+            <h3 style="font-size: 15px;">Não importa o lugar que estiver , nós da Zero Space poderemos te ajudar</h3>
+          </div >
+          <div class="contatos" style="margin-left: 70px; margin-top: 30px;">
+            <div class="phone" style="margin-top: 30px;"><img src="img/phone.svg" alt=""> +55 (11) 97394-6730 </div>
+            <div class="email" style="margin-top: 30px;"><img src="img/envelope.svg" alt="">  E-mail</div>
+            <div class="whatsapp" style="margin-top: 30px;"><img src="img/whatsapp.svg" alt="">  WhatsApp</div>
+            <div class="messenger" style="margin-top: 30px;"><img src="img/messenger.svg" alt="">  Messenger</div>
+          </div>
+          <div class="ajuda" style="margin-left: 70px; margin-top: 30px;">
+            <h3 style="font-size: 15px; margin-top: 40px;">Precisa de Ajuda ?</h3>
+            <h3 style="font-size: 12px; margin-top: 40px;">Perguntas frequentes</h3>
+            <h3 style="font-size: 12px; margin-top: 40px;">Serviços de Cuidado</h3>
+            <h3 style="font-size: 12px; margin-top: 40px;">Encontre uma Loja</h3>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="animacaoClothes hideClothes" id="containerClothes" >
+      <div class="sombraClothes " id="sombraClothes"  onclick="myFunction()" style="background-color: black; opacity: 0.8; position: fixed ; display: block;   z-index: 2; width: 100%; height: 100vh ">
+     </div>
+      <div class="clothesAnimacao  " style="  transition: .7s;">
+        <div id="clhotesPai " style="width: 25%; height: 100vh; margin-top: 1.2px; position: fixed; display: block; background-color: white; z-index: 2;   box-shadow: 16px 8px 16px 0px rgba(0, 0, 0, 5);">
+          <div id="identificacao" style="display: flex; height: 30px; margin-top: 70px; width: 100%;">
+          <h2  style="display: flex; justify-content: center; margin-top: 6px ; margin-left: 70px; font-size: 15px; height: 15px; ">Menu</h2>
+          <div style="margin-left: 65%;"><img src="img/x-lg.svg" alt="" style="cursor: pointer; margin-top: 8px;" onclick="myFunction()"></div>
+          </div>
+          <div style="margin-top: 50px; margin-left: 70px;">
+            <h3 style="font-size: 15px;">vislumbre o futuro com a maior autenticidade</h3>
+          </div >
+          <div class="contatos" style="margin-left: 70px; margin-top: 30px;">
+            <div class="colecao" style="font-size: 25px; margin-top: 30px; cursor: pointer;" onclick="location.href='./clothes.html';"> Coleção Completa </div>
+            <div class="camiseta" style="font-size: 25px; margin-top: 15px; cursor: pointer;" onclick="location.href='./tshirt.html';"> Camisetas </div>
+            <div class="calca" style="font-size: 25px; margin-top: 15px; cursor: pointer; " onclick="location.href='./pants.html';" >  Calças </div>
+            <div class="moletons" style="font-size: 25px; margin-top: 15px; cursor: pointer;" onclick="location.href='./hoddies.html';">  Moletons</div>
+            <div class="jaquetas" style="font-size: 25px; margin-top: 15px; cursor: pointer;" onclick="location.href='./jacket.html';">  Jaquetas</div>
+            <div class="acessorios" style="font-size: 25px; margin-top: 15px; cursor: pointer;" onclick="location.href='./acessories.html';"> Acessorios</div>
+          </div>
+          <div style="height: 1.5px; width: 100%; background-color: lightgray; margin-top: 150px;"></div>
+          <div class="ajuda" style="margin-left: 70px; margin-top: 30px;">
+            <h3 style="font-size: 12px; margin-top: 20px;">Perguntas frequentes</h3>
+            <h3 style="font-size: 12px; margin-top: 20px;">Serviços de Cuidado</h3>
+            <h3 style="font-size: 12px; margin-top: 20px;">Encontre uma Loja</h3>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+      <div class="navbar" style="justify-content: start; position: fixed; width: 100%; z-index: 1; margin-bottom: 1.5%;">
+          <div  class="home" ><button class="home-btn" onclick="location.href='./meuapp.html';"><a href="./meuapp.html" class="homeDcrt" style="color: black;">home</a></button></div>
+          <div class="lista-desejo"><button class="lista-desejo-btn" onclick="location.href='./listadedesejo.html';"><a href="./listadedesejo.html" class="lista-desejo-Dcrt" style="color: black;">lista de desejos</a></button></div>
+          <div class="clothes" ><button class="clothes-btn" type="button"  onclick="myFunction()" > Menu </button></div>
+  
+          <div class="fale-conosco"><button class="fale-conosco-btn" onclick="myFunction3()">Fale Conosco</button></div>
+  
+          <a href="./meuapp.html" style="text-decoration: none; color: black; width: 224.17px; margin-left: 450px;"><h1 style=" height: 50px; display: block;" >ZERO SPACE</h1></a>
+         <div style="height: 30px; width: 30px;display: flex; flex-direction: row;">
+         
+          <div class="search" style="height: 30px; width: 30px; margin-left: 35rem;"><img src="./img/search.svg" alt=""  id="searchp" style="cursor: pointer;" onclick="myFunction4()"></div>
+          <div class="zspace"><button class="zspace-btn" onclick="myFunction2()"><a class="seassonDcrt" style="color: black; text-decoration: none;">My Zspace</a></button></div>
+          <div style="height: 30px; width: 55px; margin-left: 120px; display: flex; align-items: center;" > <img src="img/bag.svg" alt="" style="height: 16px; width: 16px;">
+            <span aria-hidden="true" class="bag-count" data-quantitiy="0">0</span>
+          </div>
+         </div>
+      </div>
+      
+      <div>
+        
+      </div>
+
+</body>
+</html>
